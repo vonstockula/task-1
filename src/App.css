@@ -1,0 +1,38 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.cart {
+  flex: 1 1 calc(33.333% - 25px); /* Default: 3 cards per row, adjust gap */
+  max-width: calc(33.333% - 25px); /* Adjust to account for gap */
+  box-sizing: border-box;
+}
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .cart {
+    flex: 1 1 calc(50% - 25px); /* Two cards per row on tablets */
+    max-width: calc(50% - 25px);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .cart {
+    flex: 1 1 100%; /* One card per row on mobile devices */
+    max-width: 100%;
+  }
+}
+
+.task1_2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

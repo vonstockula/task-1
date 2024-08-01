@@ -1,0 +1,47 @@
+[
+  {
+    "iconClass": "bi bi-house-door",
+    "title": "Home",
+    "description": "Welcome to your dashboard. Here you can find an overview of your recent activities and updates."
+  },
+  {
+    "iconClass": "bi bi-calendar",
+    "title": "Events",
+    "description": "Check out upcoming events and mark your calendar for important dates."
+  },
+  {
+    "iconClass": "bi bi-bell",
+    "title": "Notifications",
+    "description": "Stay updated with the latest notifications and alerts."
+  },
+  {
+    "iconClass": "bi bi-person",
+    "title": "Profile",
+    "description": "View and edit your personal profile information and settings."
+  },
+  {
+    "iconClass": "bi bi-gear",
+    "title": "Settings",
+    "description": "Customize your preferences and manage application settings."
+  },
+  {
+    "iconClass": "bi bi-info-circle",
+    "title": "Help",
+    "description": "Find answers to frequently asked questions and get help with common issues."
+  },
+  {
+    "iconClass": "bi bi-envelope",
+    "title": "Messages",
+    "description": "Access your inbox and manage your conversations."
+  },
+  {
+    "iconClass": "bi bi-file-earmark",
+    "title": "Documents",
+    "description": "Upload, view, and manage your important documents and files."
+  },
+  {
+    "iconClass": "bi bi-heart",
+    "title": "Favorites",
+    "description": "Keep track of your favorite items and preferences."
+  }
+]
